@@ -1,0 +1,9 @@
+/* 
+Title:		Reset default browser styles
+Author: 	dan@simplebits.com, based on Eric Meyer's Reset CSS: http://meyerweb.com/eric/tools/css/reset
+*/
+	
+ol, ul {
+	list-style: none;
+	}
+

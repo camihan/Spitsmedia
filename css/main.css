@@ -1,0 +1,1022 @@
+/**********************************
+Basic Element Styles
+***********************************/
+*, *:after {
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+video, audio {
+	margin: 0 auto;
+	display: block;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+/**********************************
+Font Styles
+***********************************/
+
+/* ---- Entery content ---- */
+
+.continue-reading {
+	width: 55%;
+	border: 2px solid white;
+	display: block;
+	margin: auto;
+	margin-bottom: 38px;
+	padding: 6px 0;
+	text-align: center;
+}
+
+.continue-reading-white {
+	width: 45%;
+	border: 2px solid #fff;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 6px 0;
+	text-align: center;
+}
+
+.continue-reading-tjenester {
+	color: #454545;
+	display: block;
+	padding: 9px 0 0 9px;
+	text-align: left;
+	height: 94px;
+}
+
+a.left_side{
+	float: left;
+	max-width: 200px;
+	margin-top: 7px;
+	margin-bottom: 2px;
+}
+
+.button.top {
+	width: 40px;
+	height: 40px;
+	padding-bottom: 3px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding-bottom: 30px;
+	display: inline-block;
+	background-color: #999;
+	margin-left: 5px;
+}
+
+.title_article_entery {
+	color: #767676;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+
+}
+
+#backtotop {
+	margin: 10px 0 5px 3px;
+}
+
+img.scroller {
+	height: 100%
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+#wrapper {
+	max-width: 1100px;
+	margin:  0 auto;
+	padding: 0 2%;
+/*	background: #f0f0f0; */
+	}
+
+#wrapper h3 {
+	color: #356c87;
+	margin-bottom: -0.2em;
+}
+
+#wrapper_tjenester {
+	max-width: 800px;
+	margin:  0 auto;
+	padding: 0 2%;
+/*	background: #f0f0f0; */
+	}
+
+#wrapper_tjenester h3 {
+	color: #356c87;
+	margin-bottom: -0.2em;
+}
+
+.intro-wrapper {
+	margin: 0 auto;
+}
+
+.page {
+	max-width: 1000px;
+	margin:  0 auto;
+	padding: 0 4%;
+}
+
+.frame img {
+	border: solid 1px #bdc3c7;
+}
+
+h5.image_txt{
+	margin:0 0 18px 0;
+	font-size: 17px;
+}
+
+/**********************************
+Page: Spacing
+***********************************/
+
+.mt-3 {
+	margin-top: 10px;
+}
+
+
+
+
+
+/**********************************
+Page: Friele
+***********************************/
+
+
+.page h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left;
+	font-weight: 200;
+	font-size: 1.5rem;
+	color: #767676;
+	margin-bottom: 10px;
+	/* color: #356c87;
+	margin-bottom: -0.2em;*/
+}
+
+.page p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+.container {
+	margin:  0 auto;
+	padding: 0 2%;
+	padding-top: -20px;
+}
+
+.intro a {
+	margin: 0;
+	max-width: 160px;
+}
+
+
+/* ================================= 
+  Icons & buttons
+==================================== */
+
+.icon_work {
+	display: inline-block;
+}
+
+.button-work-group {
+	background: #f0f0f0;
+	font-size: 22px;
+	padding-left: 0;
+	margin: 0;
+}
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+	img: 12%;
+	}
+	
+h1 {
+	font-family: 'changa one', Sans serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: 400;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: 400;
+}
+	
+	
+	
+/**********************************
+NAVIGATION
+***********************************/	
+	
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 400;
+	padding: 15px 10px;
+}
+
+/**********************************
+PAGE: hjem
+***********************************/
+
+/*button flere tjenester*/
+
+.header-text {
+	display: block;
+	box-sizing: border-box;
+	margin: 1.8% 2%;
+	/* border: 1.5px solid #ba2893;*/
+	background-color: #ba2893;
+	border-radius: 15px;
+	height: 30px;
+	padding-top: 3px;
+
+}
+
+.button-services {
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+}
+
+/***********************************/
+
+.content {
+	background: #f0f0f0;
+}
+
+.content-white {
+	background: #fff;
+}
+
+.separate {
+	height: 10px;
+}
+
+.full-size {
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	width: 96%;
+	height: 300px;
+
+/*	background: url('../img/abstract.png'); no-repeat center bottom / cover;*/
+	}
+
+.full-size_background {
+	background-color: #fff;
+}
+
+.animert_sitat {
+	box-sizing: border-box;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	width: 50%;
+	margin-top: -300px;
+	
+
+}
+
+.wrapper-home {
+	margin: 0 auto;
+	max-width: 450px;
+	position: center;
+	display: block;
+	background: #f0f0f0;
+	padding: 0 0 3% 0;	
+}
+
+#wrapper-animation {
+	margin: 0 auto;
+	max-width: 450px;
+	position: center;
+	display: block;
+
+}
+
+.animation {
+	box-sizing: border-box;
+	display: block;
+	width: 96%;
+	vertical-align: bottom;
+	margin: 0 auto;
+}
+
+
+
+
+.headline-center h3 {
+	text-align: center;
+	font-weight: 200;
+	font-size: 2rem;
+	color: #767676;
+	margin-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.headline h3 {
+	text-align: left;
+	font-weight: 200;
+	font-size: 2rem;
+	color: #767676;
+	margin-bottom: 10px;
+}
+
+.headline-center {
+	height: 55px;
+}
+
+
+
+.attention {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 96%;
+	vertical-align: bottom;
+	padding: 3% 7%;
+	margin: 15px 2% 30px 2%;
+/*	background: yellow; */
+	background: #172941;
+	color: #f0f0f0;
+}
+
+.attention p {
+	font-weight: 200;
+	font-size: 1.3em;
+	padding: 5px 0;
+}
+
+.attention p strong {
+	color: #1ea8c6;
+	font-style: italic;
+}
+
+.work-overlay-button-item {
+	margin: 10px 8px;
+	color: #8a8a8a;
+	height: 100px;
+	max-width: 450px;
+	border-radius: 10px;
+	border: 3px solid #fff;
+	z-index: 3;
+}
+
+.group-elem_img,
+.group-elem_text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.group-elem_text {
+	width: 60%;
+}
+
+.work thumb {
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 10% 7%;
+	margin: 15px 2% 30px 2%;
+}
+
+.media-wrapper,
+.text-wrapper {
+margin: 0 10px;
+}
+
+.text-wrapper-job {
+	margin-left: 25%;
+	float: left;
+	display: inline-block;
+}
+
+.artikkel {
+	margin: 0 0 0 5%;
+	color: white;
+}
+
+.case-header-client-name {
+	margin: 0;
+	padding-left: 0;
+}
+
+.case-header-tagline {
+	padding-left: 0;
+	margin:0;
+}
+
+.case-header-type {
+	padding-left: 0;
+}
+
+/**********************************
+PAGE: tjenester
+***********************************/
+
+.B_ill_services {
+	padding-top: 4%;
+}
+
+/**********************************
+PAGE: Friele
+***********************************/
+.iphone {
+	display: block;
+	width: 170px;
+}
+
+.banner-image{
+	margin-top: -30px;
+}
+
+.intro h1 {
+	line-height: 30px;
+}
+
+
+/**********************************
+FOOTER
+***********************************/	
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #8a8a8a;
+}
+
+/* CLASS selector */
+.social-icon-t,
+.social-icon-f {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+/**********************************
+PAGE: ARBEID
+***********************************/
+
+/* ID selector */
+#gallery img {
+	margin: 0;
+	padding: 0;
+	border: solid 1px #bdc3c7;
+}
+
+#gallery {
+	padding-left: 0;
+}
+
+
+#gallery li {
+	float: left;
+	margin: 2.5%;
+	background-color: #ffffff;
+}
+
+#gallery li a p {
+	margin: 0 0 0 0;
+	padding: 3% 0;
+	font-size: 1em;
+	color: #737373;
+}
+
+/* CLASS selector */
+.stort_bilde {
+	margin: 0 2.5%;
+	padding: 10px 0 0 0;
+}
+
+.stort_bilde li {
+	width: 100%;
+	padding: 0;
+	background-color: #ffffff;
+	color: #737373;
+}
+
+.stort_bilde li a p {
+	margin: 0 auto 20px auto;
+	color: #737373; /*#b5bbbf*/
+}
+
+
+
+/**********************************
+PAGE: artikkel
+***********************************/
+.content-video {
+	max-width: 980px;
+	margin: auto;
+}
+
+.video_text {
+	margin: 0 3%;
+}
+
+header.video {
+	margin: 0;
+}
+
+/**********************************
+PAGE: arbeid – tjenster
+***********************************/
+
+
+
+.cb-projectbox-menu-outer {
+	padding-top: 120px;
+	outline: 0;
+	background-color: #fff;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.cb-container {
+	padding: 0 5%;
+	line-height: 1.6;
+}
+
+.cb-projectbox-item:first-child {
+	padding: 0 0 25px 0;
+}
+
+.cb-projectbox-wrap {
+
+}
+
+.cb-preface {
+	background-color: #fff;
+
+}
+
+.cb-preface-grid {
+
+}
+
+.cb-preface-grid-col -left {
+
+}
+.cb-preface-header {
+	max-width: 660px;
+	background-color: #fff;
+}
+
+.cb-header h3 b {
+	color: #488b99;
+	font-size: 1.1em;
+	line-height: 1;
+	font-weight: inherit;
+}
+
+.cb-preface-text {
+
+}
+
+.cb-text -md {
+	word-wrap: break-word;
+}
+
+.services li {
+	font-size: 1.05em;
+	line-height: 1.3em;
+}
+
+.product-presentation {
+
+}
+
+.product-presentation li {
+	margin-bottom: ;
+}
+
+.services li {
+	margin-bottom: 20px;
+}
+
+/**********************************
+PAGE: kontakt
+***********************************/
+.profile-photo {
+	position: absolute;
+    left: 5%;
+	display: block;
+	float: left;
+	max-width: 70px;
+	margin: 0;
+	border-radius: 100%;
+	padding-top: 5px;
+}
+
+.content-main {
+	max-width: 980px;
+	padding-top: 120px;
+	margin: auto;
+}
+
+
+.primary {
+	max-width: 230px;
+	min-width: 230px;
+	margin-bottom: 0px;
+}
+
+
+.third {
+	width: 160px;
+	margin: 0 0 0 5%;
+}
+
+.third h3 {
+	margin-bottom: 0.2em;
+}
+.third p {
+	margin-top: 0;
+}
+
+
+.embed-responsive-item {
+	width: 50px;
+}
+
+    
+.staff .name{
+    font-weight: 600;
+    color: #767676;
+}
+
+.staff {
+	overflow: hidden;
+	background-color: #f0f0f0;
+	margin-top: 20px;
+}
+
+.staff-wrapper, .staff-wrapper_main {
+	color: #767676;
+}
+
+
+
+.staff-wrapper li {
+	border-top: 0.5px solid lightgrey;
+	/** border-bottom: 0.5px solid; **/
+	
+}
+
+.staff-wrapper ul {
+	padding-left: 5%;
+}
+
+.staff-wrapper_main ul {
+	padding-left: 5%;
+}
+
+.staff-wrapper_main li {
+	border-top: 0.5px solid lightgrey;
+}
+
+
+.staff p {
+	font-size: 1rem;
+	vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.staff .title {
+    color: #767676;
+}
+
+.agency section {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.staff .name-title,.staff .email-mobile {
+	width:100%;
+	height:56px;
+	margin: 15px 0 10px 15px;
+	display:inline-block;
+	padding-left:75px;
+	position:relative;
+}
+
+.staff p {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.staff li {
+	margin-right: 5%;
+}
+
+.staff .image {
+	position:absolute;
+	left:10px;
+}
+
+.staff .image img {
+	width:60px;
+	height:auto;
+	-ms-transform-origin:center center;
+	transform-origin:center center
+}
+
+.name-title {
+	padding-left: 3px;
+}
+.name p {
+	width: 100%;
+}
+
+.fullstack {
+	margin: 0 2.5%;
+	padding: 10px 0 0 0;
+	margin-top: 7px;
+}
+	
+
+
+/* CLASS selector */
+
+
+
+
+.contact-info {
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact-info a {
+	display: flex;
+	flex-direction: column;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a {
+	background-image: url('../img/facebook.png');
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #676767; /* #8a8a8a;*/
+}
+
+/* blue header */
+header {
+	background: #172941;
+	border-color: #89d2d3;
+}
+
+/* nav background on mobile */
+nav {
+	background: #356c87;
+}
+
+/* logo text */
+h1, h2 {
+	color: #fff;
+}
+
+/* links */	
+a {
+	color: #488b99;
+}
+
+/*.header-text a {
+	color: #488b99;
+}*/
+
+a:link {
+	color: #488b99;
+}
+
+
+/* contact link */
+.phone a:hover {
+	color: #488b99;
+	text-decoration: underline;
+}
+
+
+.mail a:hover {
+	color: #488b99;
+	text-decoration: underline;
+}
+
+.facebook a:hover {
+	color: #488b99;
+	text-decoration: underline;
+}
+
+.linkedin a:hover {
+	color: #488b99;
+	text-decoration: underline;
+}
+
+.linkedin a {
+	color: #888;
+}
+
+
+/* nav link */
+
+.main-header a {
+	color: #fff;
+}
+
+nav a:visited {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #1ea8c6;
+}	
+
+/* contact-info link */
+
+li a {
+	color: #488b99;
+}
+
+li a.contact-info:hover {
+	text-decoration: underline;
+}
+
+/* selected nav button les mer */
+a.continue-reading, a.continue-reading-tjenester  {
+  color: #767676;
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+a.continue-reading {
+  text-decoration: underline;
+}
+
+a.continue-reading:visited, a.continue-reading-tjenester:visited {
+  color: #767676;
+
+}
+a.continue-reading:hover, a.continue-reading-tjenester:hover {
+  color: #488b99;
+  background: #fff;
+  text-decoration: none;
+}
+
+/* selected nav button les mer hvit bakgrunn */
+
+
+a.continue-reading-white {
+  color: #767676;
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+a.continue-reading-white {
+  text-decoration: underline;
+}
+
+a.continue-reading-white:visited {
+  color: #767676;
+
+}
+
+a.continue-reading-white:hover {
+  color: #fff;
+  font-weight: 600;
+  background: #d2d2d2;
+  border: 2px solid #d2d2d2;
+  text-decoration: none;
+ }
+	
+/* footer link */
+.social-icon-t:hover {
+	content: url('../img/instagram-wrap-blue.png');
+}	
+
+.social-icon-f:hover {
+	content: url('../img/facebook-wrap-blue.png');
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	

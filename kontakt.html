@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121635529-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121635529-1');
+      </script>
+    <meta charset="utf-8">
+    <title>Camilla | SpitsMedia</title>
+    <link rel="icon" type="image/png" href="img/icon_s.png"/>
+    <link href="css/screen.css" rel="stylesheet"/>
+    <link href="css/fonts.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  </head>
+	
+	<body>
+		<header class="main-header">
+			<a href="index.html" id="logo">
+				<h1>SpitsMedia</h1>
+				<h2>Design – UX/UI – Grafikk – Illustrasjon – Frontend</h2>
+			</a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Hjem</a></li>
+					<li><a href="arbeid.html">Arbeid</a></li>
+					<li><a href="kontakt.html" class="selected">Kontakt</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="content-main clearfix">
+      
+      <div class="illustration-image clearfix">
+      </div>
+			
+      <div class="content1">
+				<div class="primary col">
+	      				<div class="embed-responsive embed-responsive-16by9">
+	        			<canvas class="embed-responsive-item" id="doughnutChartDemo"></canvas>
+	      				</div>
+				</div>
+			</div>
+
+			<div class="content2">
+				
+				<div class="secondary col headline">
+					<h3>Velkommen til SpitsMedia</h3>
+					<p>Vi vil gjerne møte deg. For mer informasjon om SpitsMedia eller spørsmål om hva vi kan gjøre for deg, ring eller send oss noen linjer om dine ønsker og behov.</p>
+					<p class="facebook">Følg oss gjerne på Facebook: <a href="https://www.facebook.com/spitsmediadesign">SpitsMedia</a>.</p>
+				</div>
+						
+				<div class="third col">
+					<h3>Besøksadresse:</h3>
+            <p>Media City Bergen<br> 
+            Spaces, tårn 1<br>
+            Lars Hilles gate 30<br>
+            5008 Bergen</br></p>
+					<ul class="contact-info">
+						<li class="phone"><a href="tel: 91 71 17 86">+47 91 71 17 86</a></li>
+						<li class="mail"><a href="mailto:camilla@spitsmedia.no">camilla@spitsmedia.no</a></li>
+						<li class="facebook"><a href="https://www.facebook.com/spitsmediadesign">Facebook</a></li>
+					</ul>
+				</div>
+
+			</div>		
+		</main>
+
+    <section class="staff">
+      <div class="staff-wrapper_main">
+        <ul>
+          <li>
+            <img alt="camilla" src="img/camilla.jpg" class="profile-photo">
+            <div class="name-title">
+              <p class="name">Camilla Therese Hansen</p>
+              <p class="title">UX-/UI-designer, illustratør</p>
+              <p class="title linkedin"><a href="https://www.linkedin.com/in/camilla1978/">Linkedin-profil</a>
+            </div>
+            <img alt="fullstack" src="img/fullstack_designer_mobile.png" class="fullstack">
+          </li>
+        </ul>
+      </div>
+
+      <div class="content-white separate clearfix">
+      </div>
+
+      
+
+    </section>
+
+		<footer>
+			<a href="https://www.instagram.com/spitsmedia"><img alt="Instagram Logo" src="img/instagram-wrap.png" class="social-icon-t"></a>
+      <a href="https://www.facebook.com/spitsmediadesign"><img alt="Facebook Logo" src="img/facebook-wrap.png" class="social-icon-f"></a>
+			<p>&reg; 2020 SpitsMedia</p>
+		</footer>
+
+    <!-- Javascripts-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/plugins/pace.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/plugins/chart.js"></script>
+    <script type="text/javascript">
+      var data = {
+      	labels: ["January", "February", "March", "April", "May"],
+      	datasets: [
+      		{
+      			label: "My First dataset",
+      			fillColor: "rgba(220,220,220,0.2)",
+      			strokeColor: "rgba(220,220,220,1)",
+      			pointColor: "rgba(220,220,220,1)",
+      			pointStrokeColor: "#fff",
+      			pointHighlightFill: "#fff",
+      			pointHighlightStroke: "rgba(220,220,220,1)",
+      			data: [65, 59, 80, 81, 56]
+      		},
+      		{
+      			label: "My Second dataset",
+      			fillColor: "rgba(151,187,205,0.2)",
+      			strokeColor: "rgba(151,187,205,1)",
+      			pointColor: "rgba(151,187,205,1)",
+      			pointStrokeColor: "#fff",
+      			pointHighlightFill: "#fff",
+      			pointHighlightStroke: "rgba(151,187,205,1)",
+      			data: [28, 48, 40, 19, 86]
+      		}
+      	]
+      };
+      var pdata = [
+      	{
+      		value: 300,
+      		color:"#aed3e8",
+      		highlight: "#bcdaeb",
+      		label: "Ja"
+      	},
+      	{
+      		value: 50,
+      		color: "#b8338b",
+      		highlight: "#c34699",
+      		label: "Vet ikke"
+      	},
+      	{
+      		value: 100,
+      		color: "#1ea0cb",
+      		highlight: "#2eaad3",
+      		label: "Nei"
+      	}
+      ]
+      
+      var ctxd = $("#doughnutChartDemo").get(0).getContext("2d");
+      var barChart = new Chart(ctxd).Doughnut(pdata);
+    </script>				
+
+	</body>
+</html>
