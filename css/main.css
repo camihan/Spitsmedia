@@ -52,6 +52,8 @@ video {
 	height: auto;
 }
 
+
+
 /**********************************
 Font Styles
 ***********************************/
@@ -119,6 +121,13 @@ a.left_side{
 
 img.scroller {
 	height: 100%
+}
+
+.image-credit {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #777;
+    margin-top: 0.5em;
 }
 
 
@@ -431,6 +440,11 @@ PAGE: hjem
 	font-style: italic;
 }
 
+.attention p strong .indented,
+.stort_bilde li p .indented {
+	text-indent: 50px;
+}
+
 .work-overlay-button-item {
 	margin: 10px 8px;
 	color: #8a8a8a;
@@ -582,6 +596,22 @@ PAGE: ARBEID
 .stort_bilde li a p {
 	margin: 0 auto 20px auto;
 	color: #737373; /*#b5bbbf*/
+}
+
+.stort_bilde li ul {
+	list-style: disc inside;
+	margin: 1em 0 1.2em;
+	padding-left: 1.1em;
+	line-height: 1.6;
+	color: #4f4f4f;
+}
+
+.stort_bilde li ul li {
+	margin-bottom: 0.8em;
+}
+
+.stort_bilde li a img {
+	margin-bottom: 0;
 }
 
 
