@@ -257,7 +257,8 @@ header {
 	text-align: center;
 	margin: 0;
 	img: 12%;
-	}
+}
+
 	
 h1 {
 	font-family: 'changa one', Sans serif;
@@ -599,9 +600,9 @@ PAGE: ARBEID
 }
 
 .stort_bilde li ul {
-	list-style: disc inside;
+	list-style: disc outside;
 	margin: 1em 0 1.2em;
-	padding-left: 1.1em;
+	padding-left: 1.5em;
 	line-height: 1.6;
 	color: #4f4f4f;
 }
