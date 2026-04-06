@@ -612,14 +612,16 @@ PAGE: ARBEID
 }
 
 .stort_bilde li ul {
-	list-style: disc outside;
+	list-style-type: disc;
+	list-style-position: outside;
 	margin: 1em 0 1.2em;
-	padding-left: 1.5em;
+	padding-left: 1.8em;
 	line-height: 1.6;
 	color: #4f4f4f;
 }
 
 .stort_bilde li ul li {
+	display: list-item;
 	margin-bottom: 0.8em;
 }
 
