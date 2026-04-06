@@ -21,6 +21,9 @@ Basic Element Styles
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
 }
 
 
@@ -40,6 +43,11 @@ h3 {
 h5 {
 	font-size: 2em;
 	font-weight: 400;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7;
 }
 
 video, audio {
@@ -597,6 +605,10 @@ PAGE: ARBEID
 .stort_bilde li a p {
 	margin: 0 auto 20px auto;
 	color: #737373; /*#b5bbbf*/
+}
+
+.stort_bilde li h3 {
+	margin-top: 2em;
 }
 
 .stort_bilde li ul {
